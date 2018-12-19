@@ -1,0 +1,210 @@
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+ 
+  margin:0;
+  padding: 0;
+
+
+  
+}
+
+
+nav {
+  position: fixed;
+ 
+  width: 100%;
+  background-color: rgba(54, 56, 65, 0.5);
+  z-index: 1;
+}  
+
+nav img {
+  position: absolute;
+  left:10px;top:10px;
+  z-index: 1;
+}
+
+nav ul#menu-desktop {
+  margin:0;
+  padding:0;
+  text-align: right;
+}
+
+nav ul#menu-desktop li {
+  list-style-type:none;
+  display: inline;
+}
+
+nav ul#menu-desktop li a {
+  padding: 30px 40px;
+  text-decoration: none;
+
+  color:rgb(255, 255, 255);
+  display: inline-block;
+  margin-right: -3px;
+  font-family: Roboto, sans-serif;
+  font-size: 80%;
+  letter-spacing: 0.60
+}
+
+nav ul#menu-desktop li a:hover {
+  background-color:#29366b;
+}
+.banner img{
+ 
+  
+  width: 100%;
+  height: 900px;
+  margin: 0 ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  z-index: -2;
+
+  
+}
+.banner h2{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 60%;
+    padding-left: 10%;
+    text-shadow: 0 0 10px #333;
+    
+}
+
+
+.servicos h2 {
+  
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  right: 550px;
+  top: 930px;
+
+  z-index: 1;
+}
+.servicos img{
+  position:absolute;
+  top:1050px;
+  left: 50px;
+  z-index: -1;
+}
+.servicos ul{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  min-width: 696px;
+  list-style: none;
+  top:1200px;
+
+	
+}
+.servicos li{
+  display: inline-block;  
+  padding-right: 110px;
+  padding-left: 60px;
+
+}
+
+
+
+.clientes h2 {
+  
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  right: 550px;
+  top: 1380px;
+
+  z-index: -1;
+}
+.clientes img{
+  position:absolute;
+  top:1480px;
+  right: 30px;
+  z-index: -1;
+}
+.texto h2 {
+  
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  right: 400px;
+  top: 1650px;
+
+  z-index: 1;
+}
+.texto p {
+  
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  right: 425px;
+  top: 1700px;
+
+  z-index: 1;
+}
+.texto img{
+  position:absolute;
+  top:1600px;
+  right: 30px;
+  height: 450px;
+  z-index: -1;
+}
+
+
+
+
+
+.imagen_corpo {
+
+  position: absolute;
+  margin-left: 0;
+
+  top: 0;
+  width: 100%;
+  height: 2200px;
+
+  
+  z-index: -1;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top:2100px;
+  width: 100%;
+  height: 200px;
+  background: rgba(96, 99, 104, 0.3);
+
+  z-index: 1;
+}
+.footer ul{
+  color: rgb(172, 172, 172);
+  font-size: 15px;
+  position: absolute;
+  padding-left: 100px;
+  list-style: none;
+
+	
+}
+.footer li{
+  display: inline-block;  
+  padding-right: 110px;
+  padding-left: 50px;
+
+}
+.footer img{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
